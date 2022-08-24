@@ -4,16 +4,25 @@ import { getMatchesInfo } from '../api/api';
 function HomePage() {
 
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     getMatchesInfo()
     .then((res) => {
-      // console.log(res);
+      return res.json();
+    })
+    .then((res) => setData(res.data))
+    .catch((err) => {
+      console.log(err)
     })
   },[])
 
+  console.log(data);
+
   return (
-    <div>HomePage</div>
+    <div className='cricbuzz_home'>
+      
+    </div>
   )
 }
 

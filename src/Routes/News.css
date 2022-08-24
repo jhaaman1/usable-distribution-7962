@@ -1,0 +1,33 @@
+.newsHeading{
+    margin-left: 5rem;
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.news__image{
+    margin-top: 2rem;
+}
+
+.news__image img{
+    width: 80%;
+    height: 80%;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    max-height: 400px;
+    min-width: 100px;
+
+
+}
+
+.news__two{
+    display: flex;
+
+}
+
+.news__details{
+    max-height: 400px;
+    min-width: 100px;
+    object-fit:contain; 
+    width: 80%;
+    height: 10%;
+}
