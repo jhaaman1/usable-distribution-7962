@@ -31,3 +31,18 @@
     width: 80%;
     height: 10%;
 }
+
+.news__more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__full{
+    background-color: aqua;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
