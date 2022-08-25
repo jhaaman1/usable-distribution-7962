@@ -30,7 +30,12 @@ function News() {
               <div className='news__description'><h3> {item.description}</h3> </div>
               <div className='news__title'> <p>{item.title}</p> </div>
               <div className='news__content'> {item.content} </div>
+              <div className='news__more'>
               <div className='news__publishedat'><p> {item.publishedAt}</p> </div>
+              <div className='button'>
+                <a className='news__full' rel = "noreferrer noopener" href={item.url} >Read Full Story</a>
+              </div>
+              </div>
             </div>
 
             <div className='news__url'>

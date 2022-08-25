@@ -1,0 +1,76 @@
+.cricbuzz__home{
+    width: 90%;
+    height: auto;
+    border: 2px solid red;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.cricbuzz__featured{
+    height: 150px;
+    margin-left: 1rem;
+    color: #009270;
+    border: 2px solid blue;
+    
+}
+
+.cricbuzz__featured__main{
+    border: 2px solid green;
+    width: 10%;
+    height: 65%;
+    
+}
+
+.cric__show{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cricbuzz__fetured__teamone{
+    border: 2px solid black;
+    width: 98%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cricbuzz__featured__firstcountry{
+    border: 2px solid teal;
+    width: 40%;
+    height: 98%;
+}
+
+.cricbuzz__featured__firstcountry__score{
+    border: 2px solid blue;
+    width: 40%;
+    height: 98%;
+}
+.cricbuzz__fetured__teamtwo{
+    border: 2px solid black;
+    width: 98%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cricbuzz__featured__secondcountry{
+    border: 2px solid teal;
+    width: 40%;
+    height: 98%;
+}
+
+.cricbuzz__featured__secondcountry_score{
+    border: 2px solid red;
+    width: 40%;
+    height: 98%;
+}
+
+
+.cricbuzz__news{
+    /* border: 2px solid teal; */
+    /* width: 90%; */
+    height: 1000px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
