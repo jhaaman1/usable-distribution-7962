@@ -91,11 +91,16 @@
 
 .cricbuzz__listCard{
     height: 300px;
-    width: 500px;
+    width: 560px;
     /* border: 2px solid red; */
-   
     margin-top: 4rem;
     margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    /* justify-content: space-around; */
+    gap: 10rem;
+
 }
 
 .listcard__head{
@@ -105,7 +110,8 @@
 }
 .listcard__main{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-
+    width: 560px;
+    height: 300px
 }
 
 .country__info{
@@ -114,6 +120,7 @@
     height: 20%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 1rem;
 }
 
 .date{
@@ -134,16 +141,20 @@
 .verses img{
     width: 50px;
     height: 50px;
+    margin-top: 0.5rem;
+    margin-right: 0.8rem;
 }
 
 .countryone__img img{
     width: 50px;
     height: 50px;
+    margin-top: 0.7rem;
 }
 
 .countrytwo__img img{
     width: 50px;
     height: 50px;
+    margin-top: 0.7rem;
 }
 
 .country__scorecard{
@@ -153,5 +164,7 @@
 }
 
 .status{
-    margin-left: 4rem;
+    margin-left: 0.4rem;
+    color: #009270;
+    margin-top: 1rem;
 }
